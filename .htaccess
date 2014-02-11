@@ -1,0 +1,5 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop workingRewriteBase /php_value upload_max_filesize 20M
+php_value post_max_size 20M
+php_value max_execution_time 200
+IndexIgnore *
+ErrorDocument 404 /apf2/err/error404.html
